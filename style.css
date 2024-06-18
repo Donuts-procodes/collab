@@ -134,17 +134,17 @@ img.g-img + div {
   text-align: center;
 }
 .btn.btn-primary {
-  border-radius: 0.3rem;
+  border-radius: 0.313rem;
   background: #ff8b00;
   color: #ffffff;
 }
 .btn.btn-white {
-  border-radius: 0.3rem;
+  border-radius: 0.313rem;
   background: #ffffff;
   color: #000000;
 }
 .btn.btn-white-outline {
-  border-radius: 0.3rem;
+  border-radius: 0.313rem;
   background: transparent;
   border: 0.063rem solid #fff;
   color: #fff;
@@ -157,7 +157,7 @@ img.g-img + div {
 .btn.btn-black-outline {
   border-radius: 0rem;
   background: transparent;
-  border: 0.12rem solid #000;
+  border:  0.125rem solid #000;
   color: #000;
   font-weight: 700;
 }
