@@ -5,6 +5,9 @@ body {
   width: 100% !important;
   background: #f1f1f1;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* What it does: Stops email clients resizing small text. */
@@ -103,6 +106,10 @@ img.g-img + div {
 }
 .bg_white {
   background: #ffffff;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .bg_yellow {
   background: #fef8e7;
@@ -337,8 +344,7 @@ p {
 }
 .party-popper{
 	float: left;
-  margin-top: 1rem;
-  
+
 }
 .blue-text {
   color: #0e4b85;
@@ -509,6 +515,18 @@ ul.social li {
 
 .section{
   flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-centre{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popper-bluetext{
+  flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center;
