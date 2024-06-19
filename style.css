@@ -134,17 +134,17 @@ img.g-img + div {
   text-align: center;
 }
 .btn.btn-primary {
-  border-radius: 0.313rem;
+  border-radius: 0.3rem;
   background: #ff8b00;
   color: #ffffff;
 }
 .btn.btn-white {
-  border-radius: 0.313rem;
+  border-radius: 0.3rem;
   background: #ffffff;
   color: #000000;
 }
 .btn.btn-white-outline {
-  border-radius: 0.313rem;
+  border-radius: 0.3rem;
   background: transparent;
   border: 0.063rem solid #fff;
   color: #fff;
@@ -157,7 +157,7 @@ img.g-img + div {
 .btn.btn-black-outline {
   border-radius: 0rem;
   background: transparent;
-  border:  0.125rem solid #000;
+  border: 0.12rem solid #000;
   color: #000;
   font-weight: 700;
 }
@@ -273,10 +273,10 @@ p {
   color: black;
   padding: 1rem 2rem;
   text-decoration: none;
-  margin-left: 25%;
+  /* margin-left: 25%; */
   display: inline-block;
   font-size: 1.3rem;
-  /* margin-top: 0.6rem; */
+  margin-top: 0.6rem;
   border-radius: 1.8rem;
   font-weight: 600;
 }
@@ -337,9 +337,8 @@ p {
 }
 .party-popper{
 	float: left;
-  margin-top: -1rem;
-  margin-right: -8rem;
-  margin-left: 2rem;
+  margin-top: 1rem;
+  
 }
 .blue-text {
   color: #0e4b85;
@@ -506,4 +505,11 @@ ul.social li {
 }
 
 @media screen and (max-width: 31.25rem) {
+}
+
+.section{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
